@@ -14,8 +14,8 @@
 		B458168D2812193100425F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B458168C2812193100425F9A /* Assets.xcassets */; };
 		B45816902812193100425F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B458168E2812193100425F9A /* LaunchScreen.storyboard */; };
 		B458169B281219A200425F9A /* ModeloApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B458169A281219A200425F9A /* ModeloApi.swift */; };
-		B458169D28121AE900425F9A /* CeldaPersonalizadaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B458169C28121AE900425F9A /* CeldaPersonalizadaTableViewCell.swift */; };
 		B458169F28121BCE00425F9A /* CerebroApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B458169E28121BCE00425F9A /* CerebroApi.swift */; };
+		B46EDA4B28132CBD00AE67FD /* DetallesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46EDA4A28132CBD00AE67FD /* DetallesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		B458168F2812193100425F9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B45816912812193100425F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B458169A281219A200425F9A /* ModeloApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeloApi.swift; sourceTree = "<group>"; };
-		B458169C28121AE900425F9A /* CeldaPersonalizadaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaPersonalizadaTableViewCell.swift; sourceTree = "<group>"; };
 		B458169E28121BCE00425F9A /* CerebroApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerebroApi.swift; sourceTree = "<group>"; };
+		B46EDA4A28132CBD00AE67FD /* DetallesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,6 @@
 			children = (
 				B458168E2812193100425F9A /* LaunchScreen.storyboard */,
 				B45816892812192F00425F9A /* Main.storyboard */,
-				B458169C28121AE900425F9A /* CeldaPersonalizadaTableViewCell.swift */,
 			);
 			path = Vista;
 			sourceTree = "<group>";
@@ -96,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				B45816872812192F00425F9A /* ViewController.swift */,
+				B46EDA4A28132CBD00AE67FD /* DetallesViewController.swift */,
 			);
 			path = Controlador;
 			sourceTree = "<group>";
@@ -173,9 +173,9 @@
 			files = (
 				B458169B281219A200425F9A /* ModeloApi.swift in Sources */,
 				B45816882812192F00425F9A /* ViewController.swift in Sources */,
+				B46EDA4B28132CBD00AE67FD /* DetallesViewController.swift in Sources */,
 				B45816842812192F00425F9A /* AppDelegate.swift in Sources */,
 				B458169F28121BCE00425F9A /* CerebroApi.swift in Sources */,
-				B458169D28121AE900425F9A /* CeldaPersonalizadaTableViewCell.swift in Sources */,
 				B45816862812192F00425F9A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
